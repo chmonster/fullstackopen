@@ -1,0 +1,7 @@
+
+note left of browser: browser js \n compiles JSON \n with content \n and timestamp
+browser->server: HTTP POST https://studies.cs.helsinki.fi/exampleapp/new_note_spa
+note right of server: server js \n pushes new \n entry to \n notes data
+server-->browser: 201 created [{"message":"note created"}]
+note left of browser: browser \n pushes new \n entry to \n notes data
+note left of browser: browser renders \n modified notes \n to display
